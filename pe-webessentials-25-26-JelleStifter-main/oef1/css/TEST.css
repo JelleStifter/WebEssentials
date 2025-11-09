@@ -1,0 +1,97 @@
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 10px;
+flex-wrap: nowrap;
+
+
+
+display: flex;
+justify-content: left;
+max-width: 800px;
+margin: auto;
+height: 20px;
+width: 800px;
+gap: 10px;
+border: 1px solid #aaa;
+border-radius: 5px;
+padding: 3px 8px;
+display: inline-block;
+background-color: #f0f0f0;
+
+<a href="geschiedenis.html" id="Geschiedenis">
+<button>Geschiedenis MCA</button></a>
+<a href="dankwoord.html" id="Dankwoord">
+<button>Dankwoord</button> </a>
+<a href="auteurs.html" id="Auteurs">
+<button>Auteurs</button></a>
+<a href="contact.html" id="Contact">
+<button>Contact</button></a>
+
+
+
+
+
+
+
+
+.search-box .search-icon {
+    font-size: 28px; /* Maak de emoji/span groot genoeg */
+    display: block;
+    line-height: 1;
+}
+.main-nav{
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px 10px;
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+
+    border-bottom: 5px double gray;
+}
+.main-nav {
+    text-decoration : none;
+    color: white;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-size: 14px;
+}
+.main-nav a:hover{
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+.Geschiedenis{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dankwoord{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.Auteurs{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.Contact{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
