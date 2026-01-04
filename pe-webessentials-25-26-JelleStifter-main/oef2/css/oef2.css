@@ -1,2 +1,72 @@
-/*  Naam: 
+/*  Naam: Jelle Stifter
 */
+table {
+    border-collapse:separate;
+    border-spacing: 2px;
+    width: 500px;
+    font-size: 14px;
+    text-align: center;
+}
+
+th, td{
+    border: 2px solid rgb(0,0,0);
+
+}
+
+table thead tr:first-child th:nth-child(1) {
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(80,80,80);
+    color: white;
+    font-size: 48px;
+}
+
+table thead tr:first-child th:nth-child(2) {
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    font-family: serif;
+    font-size: 12px;
+}
+
+tbody tr:nth-child(1) td:nth-child(1) {
+    vertical-align: center;
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    font-family: serif;
+}
+
+
+tbody tr:nth-child(1) td:nth-child(2),
+tbody tr:nth-child(2) td:nth-child(1),
+tbody tr:nth-child(3) td:nth-child(1),
+tbody tr:nth-child(4) td:nth-child(1),
+tbody tr:nth-child(5) td:nth-child(1),
+tbody tr:nth-child(1) td:nth-child(3),
+tbody tr:nth-child(2) td:nth-child(3),
+tbody tr:nth-child(3) td:nth-child(4),
+tbody tr:nth-child(4) td:nth-child(5),
+tbody tr:nth-child(5) td:nth-child(6)
+{
+    background-color: rgb(125, 125, 125);
+    font-family: serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+thead tr:nth-child(2) td {
+    background-color: rgb(125, 125, 125);
+    font-family: serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
